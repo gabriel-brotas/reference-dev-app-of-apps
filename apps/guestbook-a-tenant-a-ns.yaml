@@ -27,7 +27,7 @@ spec:
         path: guestbook
       destination:
         name: in-cluster
-        namespace: 'guestbook-a-app-set-{{values.namespaceSuffix}}'
+        namespace: 'reference-dev-app-set-{{values.namespaceSuffix}}'
       syncPolicy:
         automated:
           prune: true
