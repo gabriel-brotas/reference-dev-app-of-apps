@@ -20,7 +20,7 @@ spec:
     metadata:
       name: 'guestbook-{{values.namespaceSuffix}}'
     spec:
-      project: tenant-a-dev
+      project: reference-dev
       source:
         repoURL: https://github.com/argoproj/argocd-example-apps.git
         targetRevision: HEAD
